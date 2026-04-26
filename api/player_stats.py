@@ -118,7 +118,7 @@ def render_player_analytics():
                 st.metric("⚔️ Top All-Rounder", best_ar["Name"], f"{best_ar['Runs']} R | {best_ar['Wickets']} W")
 
             st.write("---")
-            st.subheader("� Visual Analytics Dashboard")
+            st.subheader("📈 Visual Analytics Dashboard")
             
             # --- Graph Row 1 ---
             col_chart1, col_chart2 = st.columns(2)
